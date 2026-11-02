@@ -224,7 +224,7 @@ h2{font-size:24px;font-weight:800;line-height:1.35;margin-top:4px}
 <div id="toast" role="status" style="position:fixed;left:50%;bottom:110px;transform:translateX(-50%);background:#141a2e;color:#fff;padding:11px 16px;border-radius:10px;font-size:14px;display:none;z-index:30">설문 링크를 준비 중이에요</div>
 <script>
 // 팜빌 설문 링크: 아래 따옴표 안에 넣으면 '설문하기' 버튼이 해당 설문을 엽니다
-const SURVEY_URL = "https://www.pharmville.co.kr/survey/external/2096/p1bUhtUS";
+const SURVEY_URL = "https://www.pharmville.co.kr/survey/external/2097/eMguSZ6d";
 document.querySelectorAll('[data-survey]').forEach(a=>{
   if(SURVEY_URL){a.href=SURVEY_URL;return}
   a.addEventListener('click',e=>{e.preventDefault();const t=document.getElementById('toast');t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',2000)});
